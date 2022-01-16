@@ -4,9 +4,9 @@ The dataset contains number of visitors (in person) to every ASEAN country, orga
 
 Note:
 
-Total EU-27 refers to 27 European Union countries without UK. Total EU-28 is no longer used in year 2020.
-Data for 2020 is preliminary.
-Brunei Darussalam's data for 2013 and 2014 covers arrivals by air and land while other years covers arrivals by air only.
+- Total EU-27 refers to 27 European Union countries without UK. Total EU-28 is no longer used in year 2020.
+- Data for 2020 is preliminary.
+- Brunei Darussalam's data for 2013 and 2014 covers arrivals by air and land while other years covers arrivals by air only.
 
 ## Acknowledgements
 
