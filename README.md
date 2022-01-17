@@ -14,3 +14,5 @@ CoarseAggregateComponent:- Amount of Coarse Aggregate is mixed
 FineAggregateComponent:- Amount of Coarse Aggregate is mixed
 AgeInDays:- How many days it was left dry
 Strength:- What was the final strength of concrete- (Target)
+
+Dataset source: https://www.kaggle.com/mchilamwar/predict-concrete-strength
