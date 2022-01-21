@@ -51,42 +51,42 @@ Predict the Strength of the Concrete Based on the Components and Other Factors a
 - highwayA08 - highway MPG for fuelType2 (2)
 - highwayA08U - unrounded highway MPG for fuelType2 (2),(3)
 - highwayCD - highway gasoline consumption (gallons/100miles) in charge depleting mode (4)
-highwayE - highway electricity consumption in kw-hrs/100 miles
-highwayUF - EPA highway utility factor (share of electricity) for PHEV
-hlv - hatchback luggage volume (cubic feet) (8)
-hpv - hatchback passenger volume (cubic feet) (8)
-id - vehicle record id
-lv2 - 2 door luggage volume (cubic feet) (8)
-lv4 - 4 door luggage volume (cubic feet) (8)
-make - manufacturer (division)
-mfrCode - 3-character manufacturer code
-model - model name (carline)
-mpgData - has My MPG data; see yourMpgVehicle and yourMpgDriverVehicle
-phevBlended - if true, this vehicle operates on a blend of gasoline and electricity in charge depleting mode
-pv2 - 2-door passenger volume (cubic feet) (8)
-pv4 - 4-door passenger volume (cubic feet) (8)
-rangeA - EPA range for fuelType2
-rangeCityA - EPA city range for fuelType2
-rangeHwyA - EPA highway range for fuelType2
-trans_dscr - transmission descriptor; see http://www.fueleconomy.gov/feg/findacarhelp.shtml#trany
-trany - transmission
-UCity - unadjusted city MPG for fuelType1; see the description of the EPA test procedures
-UCityA - unadjusted city MPG for fuelType2; see the description of the EPA test procedures
-UHighway - unadjusted highway MPG for fuelType1; see the description of the EPA test procedures
-UHighwayA - unadjusted highway MPG for fuelType2; see the description of the EPA test procedures
-VClass - EPA vehicle size class
-year - model year
-youSaveSpend - you save/spend over 5 years compared to an average car ($). Savings are positive; a greater amount spent yields a negative number. For dual fuel vehicles, this is the cost savings for gasoline
-sCharger - if S, this vehicle is supercharged
-tCharger - if T, this vehicle is turbocharged
-c240Dscr - electric vehicle charger description
-charge240b - time to charge an electric vehicle in hours at 240 V using the alternate charger
-c240bDscr - electric vehicle alternate charger description
-createdOn - date the vehicle record was created (ISO 8601 format)
-modifiedOn - date the vehicle record was last modified (ISO 8601 format)
-startStop - vehicle has stop-start technology (Y, N, or blank for older vehicles)
-phevCity - EPA composite gasoline-electricity city MPGe for plug-in hybrid vehicles
-phevHwy - EPA composite gasoline-electricity highway MPGe for plug-in hybrid vehicles
-phevComb - EPA composite gasoline-electricity combined city-highway MPGe for plug-in hybrid vehicles
+- highwayE - highway electricity consumption in kw-hrs/100 miles
+- highwayUF - EPA highway utility factor (share of electricity) for PHEV
+- hlv - hatchback luggage volume (cubic feet) (8)
+- hpv - hatchback passenger volume (cubic feet) (8)
+- id - vehicle record id
+- lv2 - 2 door luggage volume (cubic feet) (8)
+- lv4 - 4 door luggage volume (cubic feet) (8)
+- make - manufacturer (division)
+- mfrCode - 3-character manufacturer code
+- model - model name (carline)
+- mpgData - has My MPG data; see yourMpgVehicle and yourMpgDriverVehicle
+- phevBlended - if true, this vehicle operates on a blend of gasoline and electricity in charge depleting mode
+- pv2 - 2-door passenger volume (cubic feet) (8)
+- pv4 - 4-door passenger volume (cubic feet) (8)
+- rangeA - EPA range for fuelType2
+- rangeCityA - EPA city range for fuelType2
+- rangeHwyA - EPA highway range for fuelType2
+- trans_dscr - transmission descriptor; see http://www.fueleconomy.gov/feg/findacarhelp.shtml#trany
+- trany - transmission
+- UCity - unadjusted city MPG for fuelType1; see the description of the EPA test procedures
+- UCityA - unadjusted city MPG for fuelType2; see the description of the EPA test procedures
+- UHighway - unadjusted highway MPG for fuelType1; see the description of the EPA test procedures
+- UHighwayA - unadjusted highway MPG for fuelType2; see the description of the EPA test procedures
+- VClass - EPA vehicle size class
+- year - model year
+- youSaveSpend - you save/spend over 5 years compared to an average car ($). Savings are positive; a greater amount spent yields a negative number. For dual fuel vehicles, this is the cost savings for gasoline
+- sCharger - if S, this vehicle is supercharged
+- tCharger - if T, this vehicle is turbocharged
+- c240Dscr - electric vehicle charger description
+- charge240b - time to charge an electric vehicle in hours at 240 V using the alternate charger
+- c240bDscr - electric vehicle alternate charger description
+- createdOn - date the vehicle record was created (ISO 8601 format)
+- modifiedOn - date the vehicle record was last modified (ISO 8601 format)
+- startStop - vehicle has stop-start technology (Y, N, or blank for older vehicles)
+- phevCity - EPA composite gasoline-electricity city MPGe for plug-in hybrid vehicles
+- phevHwy - EPA composite gasoline-electricity highway MPGe for plug-in hybrid vehicles
+- phevComb - EPA composite gasoline-electricity combined city-highway MPGe for plug-in hybrid vehicles
 
-Dataset source: https://www.kaggle.com/mchilamwar/predict-concrete-strength
+Dataset source: 
