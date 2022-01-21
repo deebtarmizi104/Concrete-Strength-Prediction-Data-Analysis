@@ -3,6 +3,8 @@
 There Various Factors that affects the Strength of Concrete Such as Materials Used, Age etc.
 Predict the Strength of the Concrete Based on the Components and Other Factors as Predictors.
 
+## Data source: https://www.fueleconomy.gov/feg/ws/index.shtml#vehicle
+
 ## Data Description
 
 ### vehicle
@@ -89,4 +91,43 @@ Predict the Strength of the Concrete Based on the Components and Other Factors a
 - phevHwy - EPA composite gasoline-electricity highway MPGe for plug-in hybrid vehicles
 - phevComb - EPA composite gasoline-electricity combined city-highway MPGe for plug-in hybrid vehicles
 
-Dataset source: 
+### emissionsInfo
+
+- efid - engine family ID
+- id - vehicle record ID (links emission data to the vehicle record)
+- salesArea - EPA sales area code
+- score - EPA 1-10 smog rating for fuelType1
+- scoreAlt - EPA 1-10 smog rating for fuelType2
+- smartwayScore - SmartWay Code
+- standard - Vehicle Emission Standard Code
+- stdText - Vehicle Emission Standard
+
+### fuel prices
+
+- midgrade - $ per gallon of midgrade gasoline(9)
+- premium - $ per gallon of premium gasoline(9)
+- regular - $ per gallon of regular gasoline(9)
+- cng - $ per gallon of gasoline equivalent (GGE) of compressed natural gas(10)
+- diesel - $ per gallon of diesel(9)
+- e85 - $ per gallon of E85(10)
+- electric - $ per kw-hr of electricity(10)
+- lpg - $ per gallon of propane(10)
+
+### yourMpgVehicle - summary of all My MPG data for this vehicle
+
+- avgMpg - harmonic mean of average MPG shared by fueleconomy.gov users
+- cityPercent - average % city miles
+- highwayPercent - average % highway miles
+- maxMpg - maximum user average MPG
+- minMpg - minimum user average MPG
+- recordCount - number of records for this vehicle
+- vehicleId - vehicle record id (links My MPG data to the vehicle record)
+
+### yourMpgDriverVehicle - summary of driver data reported for this vehicle
+
+- cityPercent - user average % city miles
+- highwayPercent - user average % highway miles
+- lastDate - date records were last updated (yyyy-mm-dd)
+- mpg - average MPG
+- state - state of residence
+- vehicleId - vehicle record ID (links My MPG data to the vehicle record)
